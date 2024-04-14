@@ -1,0 +1,20 @@
+.MainLayout {
+  background-color: rgb(239, 239, 239);
+}
+
+.MainLayout .Header {
+  background-color: rgb(40, 40, 40);
+}
+
+.MainLayout .Header .Toolbar {
+  position: relative;
+}
+.MainLayout .Header .Toolbar .MenuButton {
+  position: absolute;
+}
+
+.MainLayout .Header .Toolbar .Title {
+  padding: 0px;
+
+  text-align: center;
+}

@@ -1,0 +1,73 @@
+.PrincipalView .NavList {
+  margin-block-start: 40px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  gap: 12px;
+}
+.PrincipalView .NavList .NavItem {
+  inline-size: 320px;
+  block-size: 200px;
+
+  margin-block-start: 12px;
+  padding: 12px;
+
+  position: relative;
+
+  border-radius: 4px;
+  background-color: rgb(56, 63, 67);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.148);
+
+  overflow: hidden;
+}
+
+.PrincipalView .NavList .NavItem .Adorno {
+  inline-size: 200px;
+  block-size: 200px;
+
+  position: absolute;
+  right: -12px;
+  bottom: 12px;
+
+  background-image: url('src/assets/nav-list-canciones.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  filter: blur(0px) grayscale(40%);
+}
+
+.PrincipalView .NavList .NavItem:nth-of-type(2) .Adorno {
+  background-image: url('src/assets/nav-list-almacen.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90%;
+}
+
+.PrincipalView .NavList .NavItem h3 {
+  inline-size: 120px;
+
+  font-size: 20px;
+  line-height: 24px;
+
+  color: rgb(224, 225, 225);
+}
+
+.PrincipalView .NavList .NavItem .NavButton {
+  inline-size: 60px;
+  block-size: 40px;
+
+  position: absolute;
+
+  bottom: 12px;
+  right: 12px;
+
+  background-color: rgb(233, 233, 233);
+
+  color: rgb(60, 64, 65);
+  font-size: 12px;
+}
